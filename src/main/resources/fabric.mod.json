@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "cartoongui",
+  "version": "${version}",
+  "name": "Cartoon GUI Smooth",
+  "description": "Плавные пружинные анимации интерфейса в стиле iOS: появление кнопок и окон, наведение, перемещение выбора в хотбаре.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.cartoongui.CartoonGuiClient"] },
+  "mixins": ["cartoongui.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
